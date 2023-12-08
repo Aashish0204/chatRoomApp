@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.container{
+    background-color: rgb(73, 72, 72);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+
+.roomTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    margin: 8px 0px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+.roomChat{
+    width: 50vw;
+    padding: 15px 15px;
+    background-color: rgb(115, 115, 115);
+    height: 60vh;
+    overflow-y: auto;
+}
+
+
+.chat{
+    display: flex;
+    padding: 4px 1px;
+    margin: 2px 0px;
+}
+
+h4{
+    margin: 0px;
+    padding: 2px 0px;
+    color: blue;
+}
+p{
+    margin: 0px;
+}
+
+.right.chat{
+    justify-content: flex-end;
+}
+.left.chat{
+    justify-content: flex-start;
+}
+
+.chatContent{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    padding: 5px 15px;
+}
+
+
+.left .chatContent{
+    border-radius: 8px 8px 8px 0px;
+}
+
+.right .chatContent{
+    border-radius: 8px 8px 0px 8px;
+}
+
+.extraInfo{
+    text-align: center;
+    padding: 3px 1px;
+    margin: 2px 0px;
+    color: black;
+    background-color: rgb(167, 167, 167);
+    border-radius: 8px;
+}
+
+
+.roomInputs{
+    margin: 5px 0px;
+    width: 100%;
+
+}
+
+.roomInputs input{
+    background-color: white;
+    outline: none;
+    width: 80%;
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+
+#btn{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    font-weight: bold;
+    padding: 10px 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+#btn:hover{
+    background-color:rgb(62, 62, 62) ;
+}
+
+#formId{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

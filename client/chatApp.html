@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="chatApp.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script defer src="chatApp.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="roomTitle">
+            Chat Room
+        </div>
+        <div class="roomChat" id="roomChat">
+            <!-- <div class="chat left">
+                <div class="chatContent">
+                    <h4 class="nameOfSender">Ronak</h4>
+                    <p>Hii how are you</p>
+                </div>
+            </div>
+            <div class="extraInfo center">Ashish joined the room</div>
+            <div class="chat right">
+                <div class="chatContent">I am fine</div>
+            </div> -->
+        </div>
+        <div class="roomInputs">
+            <form id="formId">
+                <input id="inputMsg" type="text">
+                <button id="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
